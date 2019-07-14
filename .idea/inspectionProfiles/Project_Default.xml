@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CucumberTableInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CucumberUndefinedStep" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="features.steps.LoginStepsDef.driver" />
+          <option value="features.environment.driver" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

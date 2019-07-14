@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "test_orange_hrm_login",
+      "children" : [ {
+        "name" : "TestOrangeHRM",
+        "children" : [ {
+          "name" : "test_homepagetitle",
+          "uid" : "80ba55f837c29ba6",
+          "parentUid" : "89ccd1e7c32555a232578302df153ec7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562430553989,
+            "stop" : 1562430553996,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login_valid",
+          "uid" : "29d1590ed99f50d7",
+          "parentUid" : "89ccd1e7c32555a232578302df153ec7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1562430563086,
+            "stop" : 1562430587165,
+            "duration" : 24079
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "89ccd1e7c32555a232578302df153ec7"
+      } ],
+      "uid" : "a61b46b515d635ac56c0c2af8350d90a"
+    } ],
+    "uid" : "902c53be0755ed2c5e3076a8d5ce2e49"
+  } ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "bfce800276f97919",
+  "name" : "test_homepagetitle",
+  "fullName" : "Tests.test_orange_hrm_login.TestOrangeHRM#test_homepagetitle",
+  "historyId" : "d4c5ec84bcddcf2a54dcded4f755ba75",
+  "time" : {
+    "start" : 1562429463503,
+    "stop" : 1562429463521,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'OrangeHRM' == 'OrangeHRMWRONG'\n  - OrangeHRM\n  + OrangeHRMWRONG\n  ?          +++++",
+  "statusTrace" : "self = <test_orange_hrm_login.TestOrangeHRM object at 0x02FC9150>, setup = None\n\n    def test_homepagetitle(self,setup):\n>     assert self.driver.title == \"OrangeHRMWRONG\"\nE     AssertionError: assert 'OrangeHRM' == 'OrangeHRMWRONG'\nE       - OrangeHRM\nE       + OrangeHRMWRONG\nE       ?          +++++\n\nTests\\test_orange_hrm_login.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1562429452530,
+      "stop" : 1562429463493,
+      "duration" : 10963
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1562429463646,
+      "stop" : 1562429463759,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_orange_hrm_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrangeHRM"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O8AO5IFC"
+  }, {
+    "name" : "thread",
+    "value" : "17468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_orange_hrm_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "89aa79945fff6277",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'OrangeHRM' == 'OrangeHRMWRONG'\n  - OrangeHRM\n  + OrangeHRMWRONG\n  ?          +++++",
+      "time" : {
+        "start" : 1562428477017,
+        "stop" : 1562428477029,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bfce800276f97919.json",
+  "parameterValues" : [ ]
+}

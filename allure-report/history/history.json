@@ -1,0 +1,41 @@
+{
+  "b9ea9908d9f7e63493840c1c60161c85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "255b5d7cdc4b5b08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562429475256,
+        "stop" : 1562429493172,
+        "duration" : 17916
+      }
+    } ]
+  },
+  "d4c5ec84bcddcf2a54dcded4f755ba75" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfce800276f97919",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'OrangeHRM' == 'OrangeHRMWRONG'\n  - OrangeHRM\n  + OrangeHRMWRONG\n  ?          +++++",
+      "time" : {
+        "start" : 1562429463503,
+        "stop" : 1562429463521,
+        "duration" : 18
+      }
+    } ]
+  }
+}

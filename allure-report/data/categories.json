@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'OrangeHRM' == 'OrangeHRMWRONG'\n  - OrangeHRM\n  + OrangeHRMWRONG\n  ?          +++++",
+      "children" : [ {
+        "name" : "test_homepagetitle",
+        "uid" : "bfce800276f97919",
+        "parentUid" : "2059f0d0df98987b29f5bc52bd671706",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562429463503,
+          "stop" : 1562429463521,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2059f0d0df98987b29f5bc52bd671706"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

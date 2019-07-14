@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-O8AO5IFC",
+    "children" : [ {
+      "name" : "7704-MainThread",
+      "children" : [ {
+        "name" : "test_login_valid",
+        "uid" : "29d1590ed99f50d7",
+        "parentUid" : "63032cfa1d9de87ffe510b16ed2ae66c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562430563086,
+          "stop" : 1562430587165,
+          "duration" : 24079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_homepagetitle",
+        "uid" : "80ba55f837c29ba6",
+        "parentUid" : "63032cfa1d9de87ffe510b16ed2ae66c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562430553989,
+          "stop" : 1562430553996,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63032cfa1d9de87ffe510b16ed2ae66c"
+    } ],
+    "uid" : "d266006567b487f95fdab689defb287e"
+  } ]
+}

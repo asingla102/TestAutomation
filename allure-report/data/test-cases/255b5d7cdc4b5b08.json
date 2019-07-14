@@ -1,0 +1,94 @@
+{
+  "uid" : "255b5d7cdc4b5b08",
+  "name" : "test_login_valid",
+  "fullName" : "Tests.test_orange_hrm_login.TestOrangeHRM#test_login_valid",
+  "historyId" : "b9ea9908d9f7e63493840c1c60161c85",
+  "time" : {
+    "start" : 1562429475256,
+    "stop" : 1562429493172,
+    "duration" : 17916
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1562429463779,
+      "stop" : 1562429475256,
+      "duration" : 11477
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1562429493174,
+      "stop" : 1562429493349,
+      "duration" : 175
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_orange_hrm_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrangeHRM"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O8AO5IFC"
+  }, {
+    "name" : "thread",
+    "value" : "17468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_orange_hrm_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6c542df7a12ff1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562428488088,
+        "stop" : 1562428506076,
+        "duration" : 17988
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "255b5d7cdc4b5b08.json",
+  "parameterValues" : [ ]
+}
